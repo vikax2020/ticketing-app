@@ -1,31 +1,27 @@
-# 🎟️ Ticketing App  
+# 🎫 Mini Helpdesk / Ticketing App
 
-A full-stack **Ticket Booking and Management System** built with **Node.js, Express, MongoDB (Backend)** and **React (Frontend)**.  
-This app allows users to book tickets, view booking history, and manage events easily.  
+🎬 **Demo Video:** [Watch Demo](https://drive.google.com/file/d/1qiym0AtBWvHlANcpDbsohStDn0gGTbQi/view?usp=drive_link)
 
----
+A simple **MERN Stack** project for managing user tickets with role-based access (user/admin).
 
-## 🚀 Features  
+### Features:
+- Users can raise tickets with issue details and priority.
+- Admins can view all tickets and update their status.
+- Role-based dashboard:
+  - **User:** Can view and raise their own tickets.
+  - **Admin:** Can view all tickets, update status, and manage dashboard.
 
-✅ **User-Friendly Interface** – Simple and responsive UI for booking tickets  
-✅ **Event Management** – Create, update, and delete events  
-✅ **Secure Authentication** – Login/Signup using JWT  
-✅ **Real-time Updates** – View ticket availability in real time  
-✅ **Admin Dashboard** – Manage users, events, and bookings  
+### Admin Credentials:
+- **Email:** admin@gmail.com  
+- **Password:** 123456  
 
----
+### Tech Stack:
+- **Frontend:** React, Axios  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Other:** CORS, dotenv
 
-## 🛠️ Tech Stack  
-
-**Frontend:** React, TailwindCSS (or your CSS framework)  
-**Backend:** Node.js, Express.js  
-**Database:** MongoDB  
-**Authentication:** JWT  
-
----
-
-## 📦 Installation & Setup  
-
-Clone the repository:  
-```bash
-git clone https://github.com/vikax2020/ticketing-app.git
+### How to Run:
+1. Clone the repo:
+   ```bash
+   git clone <repo-link>
